@@ -3,6 +3,19 @@
 
 // nav_bar stylings
 #nav_bar{
+  .affix{
+    top: 0;
+    width: 100%;
+  }
+
+  .affix + .container-fluid{
+    padding-top: 70px;
+  }
+
+  .navbar{
+    z-index: 500;
+    background-color: $black_grey_background_color;
+  }
 
 }
 
