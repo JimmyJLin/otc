@@ -3,6 +3,74 @@
 
 // styling for footer
 #footer{
+  color: $dark_grey_font_color;
+  padding: 25px 40px;
+  h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;
+  }
+  #info{
+    #info_links{
+      text-decoration: none;
+      color: $dark_grey_font_color;
+      font-size: .8em;
+    }
+  }
+
+  #social_medias{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: .8em;
+    a{
+      text-decoration: none;
+      transition-duration: 1s;
+    }
+
+    #social_title{
+      text-align: center;
+    }
+    #facebook{
+      width: 39%;
+      height: auto;
+    }
+    #instagram{
+      width: 9%;
+      height: auto;
+    }
+    #pinterest{
+      width: 9%;
+      height: auto;
+    }
+    #blog{
+      width: 39%;
+      height: auto;
+    }
+
+    #facebook, #instagram, #pinterest, #blog{
+      cursor: pointer;
+    }
+    a:hover{
+      opacity: .8;
+    }
+  }
+
+  #subscribe{
+    font-size: .8em;
+    .btn{
+      background-color: $black_grey_background_color;
+      color: $white_font_color;
+      transition-duration: 1s;
+    }
+    .btn:hover{
+      opacity: .8;
+    }
+  }
+
+  #info, #social_medias, #subscribe{
+    padding-bottom: 20px;
+  }
 
 }
 
@@ -12,25 +80,91 @@
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
+
 }
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
 
 }
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
+
 }
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
 
 }
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
+
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+  #footer{
+    h4{
+      text-align: center;
+    }
+    #info{
+      .center{
+        text-align: center;
+      }
+    }
+  }
 
 }
 /* Mobile & Tablet @media imports - ends */
