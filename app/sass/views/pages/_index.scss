@@ -59,7 +59,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      height: 200px;
+      width: 200px;
+      height: auto;
       background-attachment: scroll;
     }
   }
@@ -69,7 +70,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      height: 200px;
+      width: 200px;
+      height: auto;
       background-attachment: scroll;
     }
   }
@@ -79,7 +81,8 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      height: 200px;
+      width: 200px;
+      height: auto;
       background-attachment: scroll;
     }
   }
