@@ -59,7 +59,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .section_one, .section_two, .section_three{
-      background-size: 100% 100%;
+      background-size: auto;
     }
 
 }
@@ -67,7 +67,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .section_one, .section_two, .section_three{
-      background-size: 100% 100%;
+      background-size: auto;
     }
 
 }
@@ -75,7 +75,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .section_one, .section_two, .section_three{
-      background-size: 100% 100%;
+      background-size: auto;
     }
 
 }
@@ -83,7 +83,7 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
   .section_one, .section_two, .section_three{
-    background-size: 100% 100%;
+    background-size: auto;
   }
 
 }
