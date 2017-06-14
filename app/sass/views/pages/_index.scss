@@ -58,22 +58,24 @@
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
-    .section_one, .section_two, .section_three{
-      width: auto;
-      height: auto;
-      background-attachment: scroll;
-    }
+
 
     .section_one {
+      background-attachment: scroll;
+
       background-image: url("/images/background/cut-small.jpg");
 
     }
 
     .section_two {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/haircolor-small.jpg");
     }
     .section_three {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/hairtreatment-small.jpg");
     }
@@ -83,22 +85,23 @@
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
-    .section_one, .section_two, .section_three{
-      width: auto;
-      height: auto;
-      background-attachment: scroll;
-    }
 
     .section_one {
+      background-attachment: scroll;
+
       background-image: url("/images/background/cut-small.jpg");
 
     }
 
     .section_two {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/haircolor-small.jpg");
     }
     .section_three {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/hairtreatment-small.jpg");
     }
@@ -108,22 +111,22 @@
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
-    .section_one, .section_two, .section_three{
-      width: auto;
-      height: auto;
-      background-attachment: scroll;
-    }
-
     .section_one {
+      background-attachment: scroll;
+
       background-image: url("/images/background/cut-small.jpg");
 
     }
 
     .section_two {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/haircolor-small.jpg");
     }
     .section_three {
+      background-attachment: scroll;
+
       padding-top: 1px;
       background-image: url("/images/background/hairtreatment-small.jpg");
     }
@@ -133,22 +136,19 @@
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #parallax{
-    .section_one, .section_two, .section_three{
-      width: auto;
-      height: auto;
-      background-attachment: scroll;
-    }
-
     .section_one {
+      background-attachment: scroll;
       background-image: url("/images/background/cut-small.jpg");
 
     }
 
     .section_two {
+      background-attachment: scroll;
       padding-top: 1px;
       background-image: url("/images/background/haircolor-small.jpg");
     }
     .section_three {
+      background-attachment: scroll;
       padding-top: 1px;
       background-image: url("/images/background/hairtreatment-small.jpg");
     }
