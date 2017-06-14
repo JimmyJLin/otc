@@ -129,20 +129,20 @@
     .section_one {
       color: purple;
       background-attachment: scroll;
-      background-image: url("/images/background/haircolor-small.jpg");
+      background-image: url('/images/background/haircolor-small.jpg') repeat-x;
     }
 
     .section_two {
       color: green;
       background-attachment: scroll;
       padding-top: 1px;
-      background-image: url("/images/background/haircolor-small.jpg");
+      background-image: url('/images/background/haircolor-small.jpg') repeat-x;
     }
     .section_three {
       color: blue;
       background-attachment: scroll;
       padding-top: 1px;
-      background-image: url("/images/background/hairtreatment-small.jpg");
+      background-image: url('/images/background/hairtreatment-small.jpg') repeat-x;
     }
   }
 
