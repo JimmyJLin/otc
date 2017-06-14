@@ -3,20 +3,50 @@
 
 // index landing page
 #index{
-  padding-top: 60px;
-  height: 600px;
+  // padding-top: 60px;
   width: auto;
 
-  h3{
-    margin:0 auto;
-    background-color: $main_background_color;
-    z-index:0;
-    text-align:center;
-    font-size:4em;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: $main_font_color;
-    opacity:0.7;
+
+  #parallax{
+    .section_title{
+      position: relative;
+      top:50%;
+      transform: translateY(-50%);
+      background-color: $white_background_color;
+      opacity: .7;
+
+      h3{
+        padding-top: 20px;
+        font-size: 3em;
+        text-align: center;
+        height: 100px;
+      }
+    }
+
+    .section_one, .section_two, .section_three{
+      height: 700px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .section_one {
+      background-image: url("/images/background/cut.jpg");
+
+    }
+
+    .section_two {
+      padding-top: 1px;
+      background-image: url("/images/background/haircolor.jpg");
+    }
+    .section_three {
+      padding-top: 1px;
+      background-image: url("/images/background/hairtreatment.jpg");
+    }
+
   }
+
 
 
 
