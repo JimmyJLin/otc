@@ -59,11 +59,9 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      color: pink;
-
+      height: 200px;
       background-attachment: scroll;
-      background-size: 150px 150px;
-
+      background-size: contain;
     }
   }
 
@@ -72,10 +70,9 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      color: pink;
-
+      height: 200px;
       background-attachment: scroll;
-      background-size: 150px 150px;
+      background-size: contain;
     }
   }
 
@@ -84,11 +81,9 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     .section_one, .section_two, .section_three{
-      color: pink;
-
+      height: 200px;
       background-attachment: scroll;
-      background-size: 150px 150px;
-
+      background-size: contain;
     }
   }
 
@@ -97,10 +92,9 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #parallax{
     .section_one, .section_two, .section_three{
-      color: pink;
+      height: 200px;
       background-attachment: scroll;
-      background-size: 150px 150px;
-
+      background-size: contain;
     }
   }
 
