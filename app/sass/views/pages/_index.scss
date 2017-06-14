@@ -60,9 +60,10 @@
   #parallax{
     .section_one, .section_two, .section_three{
       color: pink;
-      
+
       background-attachment: scroll;
-      background-size: contain;
+      background-size: 150px 150px;
+
     }
   }
 
@@ -74,7 +75,7 @@
       color: pink;
 
       background-attachment: scroll;
-      background-size: contain;
+      background-size: 150px 150px;
     }
   }
 
@@ -86,7 +87,8 @@
       color: pink;
 
       background-attachment: scroll;
-      background-size: contain;
+      background-size: 150px 150px;
+
     }
   }
 
@@ -97,7 +99,8 @@
     .section_one, .section_two, .section_three{
       color: pink;
       background-attachment: scroll;
-      background-size: contain;
+      background-size: 150px 150px;
+
     }
   }
 
