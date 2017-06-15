@@ -72,11 +72,7 @@
 
   #parallax{
     .section_one, .section_two, .section_three{
-      width: 387px;
-      height: auto;
-      color: blue;
-      background-size: contain;
-
+      background-attachment: scroll;
     }
   }
 
