@@ -50,17 +50,6 @@
 
 }
 
-// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {}
-// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
-// @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-// @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
-// @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {}
-// @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {}
-// @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {}
-// @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {}
-
-
-
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -81,7 +70,17 @@
     .section_one {
       background-image: url("/images/background/cut-small.jpg") !important;
       background-attachment: scroll;
-      background-size: 500px !important;
+      background-size: contain !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll;
+      background-size: contain !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll;
+      background-size: contain !important;
     }
   }
 
