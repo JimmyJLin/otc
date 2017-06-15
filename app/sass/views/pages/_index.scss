@@ -68,6 +68,11 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
   #parallax{
+    .section_one, .section_two, .section_three{
+      .section_title{
+        top: 86% !important;
+      }
+    }
     .section_one {
       background-image: url("/images/background/cut-small.jpg") !important;
       background-attachment: scroll !important;
