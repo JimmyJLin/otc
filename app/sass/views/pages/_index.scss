@@ -8,20 +8,7 @@
 
 
   #parallax{
-    .section_title{
-      position: relative;
-      top:50%;
-      transform: translateY(-50%);
-      background-color: $white_background_color;
-      opacity: .7;
 
-      h3{
-        padding-top: 20px;
-        font-size: 3em;
-        text-align: center;
-        height: 100px;
-      }
-    }
 
     .section_one, .section_two, .section_three{
       height: 700px;
@@ -29,6 +16,21 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+
+      .section_title{
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        background-color: $white_background_color;
+        opacity: .7;
+
+        h3{
+          padding-top: 20px;
+          font-size: 3em;
+          text-align: center;
+          height: 100px;
+        }
+      }
     }
 
     .section_one {
