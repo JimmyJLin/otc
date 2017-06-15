@@ -55,13 +55,82 @@
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #parallax{
+    .section_one, .section_two, .section_three{
+      .section_title{
+        top: 76% !important;
+      }
+    }
+    .section_one {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+  }
+
 }
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #parallax{
+    .section_one, .section_two, .section_three{
+      .section_title{
+        top: 76% !important;
+      }
+    }
+    .section_one {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+  }
+
 }
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  #parallax{
+    .section_one, .section_two, .section_three{
+      .section_title{
+        top: 80% !important;
+      }
+    }
+    .section_one {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+  }
 
 }
 // iPhone 6plus
@@ -90,15 +159,81 @@
     }
   }
 
-
 }
+
+
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  #parallax{
+    .section_one {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+  }
 
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
 
+  #parallax{
+    .section_one {
+      background-image: url("/images/background/cut.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: 100% !important;
+    }
+  }
 
 }
+
+
+// Nexus 6P
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  #parallax{
+    .section_one, .section_two, .section_three{
+      .section_title{
+        top: 86% !important;
+      }
+    }
+    .section_one {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_two {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+  }
+
+}
+
 /* Mobile & Tablet @media imports - ends */
