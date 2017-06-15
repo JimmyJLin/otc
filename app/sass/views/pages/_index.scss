@@ -67,23 +67,20 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
   #parallax{
-    .section_one, .section_two, .section_three{
-      height: 700px !important;
-    }
     .section_one {
       background-image: url("/images/background/cut-small.jpg") !important;
       background-attachment: scroll;
-      background-size: 100% !important;
+      background-size: 300px !important;
     }
     .section_two {
       background-image: url("/images/background/haircolor-small.jpg") !important;
       background-attachment: scroll;
-      background-size: 100% !important;
+      background-size: 300px !important;
     }
     .section_three {
       background-image: url("/images/background/hairtreatment-small.jpg") !important;
       background-attachment: scroll;
-      background-size: 100% !important;
+      background-size: 300px !important;
     }
   }
 
