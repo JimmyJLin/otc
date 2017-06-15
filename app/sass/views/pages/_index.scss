@@ -49,6 +49,46 @@
 
   }
 
+  #parallax-two{
+
+        .section_one, .section_two, .section_three{
+          height: 700px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          .section_title{
+            position: relative;
+            top:50%;
+            transform: translateY(-50%);
+            background-color: $white_background_color;
+            opacity: .7;
+
+            h3{
+              padding-top: 20px;
+              font-size: 3em;
+              text-align: center;
+              height: 100px;
+            }
+          }
+        }
+
+        .section_one {
+          background-image: url("/images/background/mountain.jpg");
+
+        }
+
+        .section_two {
+          padding-top: 1px;
+          background-image: url("/images/background/haircolor.jpg");
+        }
+        .section_three {
+          padding-top: 1px;
+          background-image: url("/images/background/hairtreatment.jpg");
+        }
+  }
+
 
 }
 
@@ -86,6 +126,23 @@
     }
   }
 
+  #parallax-two{
+    .section_one {
+      background-image: url("/images/background/haircolor-small.jpg") !important;
+      background-attachment: scroll;
+      background-size: 600px 500px !important;
+    }
+    .section_two {
+      background-image: url("/images/background/mountain.jpg") !important;
+      background-attachment: scroll;
+      background-size: 600px 500px !important;
+    }
+    .section_three {
+      background-image: url("/images/background/hairtreatment-small.jpg") !important;
+      background-attachment: scroll;
+      background-size: 600px 500px !important;
+    }
+  }
 
 }
 // Tablets
