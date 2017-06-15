@@ -48,8 +48,6 @@
   }
 
 
-
-
 }
 
 
@@ -70,11 +68,6 @@
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
-  #parallax{
-    .section_one, .section_two, .section_three{
-      background-attachment: scroll;
-    }
-  }
 
 }
 // Tablets
@@ -83,6 +76,7 @@
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
 
 }
 /* Mobile & Tablet @media imports - ends */
