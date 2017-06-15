@@ -68,16 +68,19 @@
 
   #parallax{
     .section_one {
+      padding-top: none !important;
       background-image: url("/images/background/haircolor-small.jpg") !important;
       background-attachment: scroll;
       background-size: 600px 500px !important;
     }
     .section_two {
+      padding-top: none !important;
       background-image: url("/images/background/mountain.jpg") !important;
       background-attachment: scroll;
       background-size: 600px 500px !important;
     }
     .section_three {
+      padding-top: none !important;
       background-image: url("/images/background/hairtreatment-small.jpg") !important;
       background-attachment: scroll;
       background-size: 600px 500px !important;
