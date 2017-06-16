@@ -1,5 +1,6 @@
-// import variables
-@import "variables";
+// import stylings
+@import "global";
+
 
 // styling for footer
 #footer{
@@ -9,7 +10,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;
   }
   #info{
     #info_links{
@@ -59,8 +59,6 @@
   #subscribe{
     font-size: .8em;
     .btn{
-      background-color: $black_grey_background_color;
-      color: $white_font_color;
       transition-duration: 1s;
     }
     .btn:hover{
@@ -75,11 +73,9 @@
 }
 
 
-
 /* Mobile & Tablet @media imports - starts */
-// iPhone 4
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
+// iPhone 4 & 4s starts here
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
   #footer{
     h4{
       text-align: center;
@@ -90,11 +86,17 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
 
 }
-// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+
+}
+// iPhone 4 & 4s ends here
+
+// iPhone 5 & 5S starts here
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
   #footer{
     h4{
       text-align: center;
@@ -105,11 +107,17 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
 }
-// iPhone 6 & 6S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+// iPhone 5 & 5S ends here
+
+// iPhone 6 & 6S starts here
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
   #footer{
     h4{
       text-align: center;
@@ -120,11 +128,17 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
 }
-// iPhone 6plus
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+// iPhone 6 & 6S ends here
+
+// iPhone 6plus starts here
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
   #footer{
     h4{
       text-align: center;
@@ -135,11 +149,29 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 
 }
-// Tablets
-@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 
+}
+// iPhone 6plus ends here
+
+// iPad mini starts here
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+
+}
+// iPad mini ends here
+
+// iPad starts here
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   #footer{
     h4{
       text-align: center;
@@ -150,11 +182,17 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
 }
-// Tablets - iPad Pro
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+// iPad ends here
+
+// iPad Pro starts here
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-
   #footer{
     h4{
       text-align: center;
@@ -165,6 +203,25 @@
       }
     }
   }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
 
 }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+
+}
+// iPad Pro ends here
+
+// Nexus 6P starts here
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3){
+
+}
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+}
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+// Nexus 6P ends here
+
 /* Mobile & Tablet @media imports - ends */

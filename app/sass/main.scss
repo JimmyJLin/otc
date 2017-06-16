@@ -1,7 +1,9 @@
 // variables import
+@import "global";
 @import "variables";
 
 // import from various pages
 @import "views/pages/index.scss";
 @import "views/partials/navbar.scss";
 @import "views/partials/footer.scss";
+@import "views/partials/parallax.scss";

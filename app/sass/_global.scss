@@ -1,0 +1,11 @@
+@import "variables";
+
+// Main basic stylings
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;
+
+  .btn{
+    background-color: $black_grey_background_color;
+    color: $white_font_color;
+  }
+}
