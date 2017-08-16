@@ -8,8 +8,16 @@ main.get('/', (req, res) => {
   res.render('pages/index');
 });
 
-main.get('/services', (req, res) => {
-  res.render('pages/services');
+main.get('/seminars', (req, res) => {
+  res.render('pages/seminars');
+});
+
+main.get('/register', (req, res) => {
+  res.render('pages/register');
+});
+
+main.get('/faq', (req, res) => {
+  res.render('pages/faq');
 });
 
 main.get('/contact', (req, res) => {
