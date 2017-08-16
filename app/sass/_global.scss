@@ -13,10 +13,12 @@ body {
   .btn{
     background-color: $main_button_color;
     color: $button_font_color;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
   }
   .btn:hover{
     background-color: $secondary_button_color;
     color: $button_font_color;
+    box-shadow: none;
   }
   // global buttton styling ends
 

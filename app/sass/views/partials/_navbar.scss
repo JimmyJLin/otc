@@ -7,6 +7,21 @@
   background-color: $g_transparent_color;
   .navbar {
     margin-bottom: -20px;
+    a {
+      margin: 5px 10px;
+      // padding: 0px 18px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+    }
+  }
+
+  .navbar-nav{
+    .active{
+      a{
+        background-color: $g_yellow;
+        color: $main_font_color;
+      }
+    }
   }
 
   .navbar-toggle {
