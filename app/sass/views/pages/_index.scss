@@ -10,88 +10,97 @@
 
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4 & 4s starts here
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2){
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape){
 
 }
 // iPhone 4 & 4s ends here
 
 // iPhone 5 & 5S starts here
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) {
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
 
 }
 // iPhone 5 & 5S ends here
 
 // iPhone 6 & 6S starts here
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) {
 
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
 
 }
 // iPhone 6 & 6S ends here
 
 // iPhone 6plus starts here
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) {
 
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
 
 }
 // iPhone 6plus ends here
 
 // iPad mini starts here
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) {
 
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) and ($orientation: $portrait) {
 
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) and ($orientation: $landscape) {
 
 }
 // iPad mini ends here
 
 // iPad starts here
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) {
 
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
+
+}
+@media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
 
 }
 // iPad ends here
 
-// Tablets - iPad Pro starts here
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+// iPad Pro starts here
+@media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) {
 
 }
-// Tablets - iPad Pro ends here
+@media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) and ($orientation: $portrait) {
+
+}
+@media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) and ($orientation: $portrait) {
+
+}
+// iPad Pro ends here
 
 // Nexus 6P starts here
-@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3){
 
 }
-@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
 }
-@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
 
 }
 // Nexus 6P ends here

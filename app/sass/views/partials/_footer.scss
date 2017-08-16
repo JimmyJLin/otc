@@ -4,7 +4,6 @@
 
 // styling for footer
 #footer{
-  color: $dark_grey_font_color;
   padding: 25px 40px;
   h4{
     text-align: center;
@@ -13,8 +12,6 @@
   }
   #info{
     #info_links{
-      text-decoration: none;
-      color: $dark_grey_font_color;
       font-size: .8em;
     }
   }
@@ -24,7 +21,6 @@
     padding-right: 0px;
     font-size: .8em;
     a{
-      text-decoration: none;
       transition-duration: 1s;
     }
 
@@ -48,9 +44,6 @@
       height: auto;
     }
 
-    #facebook, #instagram, #pinterest, #blog{
-      cursor: pointer;
-    }
     a:hover{
       opacity: .7;
     }

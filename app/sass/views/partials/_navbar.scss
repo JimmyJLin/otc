@@ -4,7 +4,7 @@
 
 // nav_bar stylings
 #nav_bar{
-  background-color: $transparent_background_color;
+  background-color: $g_transparent_color;
   .navbar {
     margin-bottom: -20px;
   }
@@ -12,11 +12,11 @@
   .navbar-toggle {
     background-color: $main_background_color;
     .icon-bar{
-      background-color: $black_grey_background_color;
+      background-color: $secondary_background_color;
     }
   }
   .navbar-toggle:hover {
-    background-color: $black_grey_background_color;
+    background-color: $secondary_background_color;
     .icon-bar{
       background-color: $main_background_color;
     }
@@ -38,16 +38,12 @@
 
   .affix-top{
     z-index: 500;
-    background-color: $transparent_background_color;
+    background-color: $secondary_background_color;
     border: none;
     border-radius: 0;
   }
   a {
     transition-duration: 1s;
-    color: $maroon_red_font_color;
-  }
-  a:hover{
-    color: $main_font_color;
   }
 
 }

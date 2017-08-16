@@ -1,23 +1,33 @@
 // BACKGROUND COLORS
 $main_background_color: #ffffff;
-$secondary_background_color: #f3f3f3;
-$transparent_background_color: transparent;
-$black_grey_background_color: #444444;
-$black_background_color: #000000;
+$secondary_background_color: #444444;
 
 
 // FONT COLORS
 $main_font_color: #444444;
-$white_font_color: #ffffff;
-$maroon_red_font_color: #b20000;
-$dark_grey_font_color: #333333;
-$dark_brown_font_color: #191919;
-
+$secondary_font_color: #333333;
 
 // footer
 $footer_background_color: #666666;
 $footer_font_color: #f2f2f2;
 $footer_disclaimer_color: #999999;
+
+// button colors
+$main_button_color: #444444;
+$secondary_button_color: #b20000;
+$button_font_color: #ffffff;
+
+// global Colors
+$g_transparent_color: transparent;
+$g_black_grey_color: #444444;
+
+// $black_grey_background_color: #444444;
+// $black_background_color: #000000;
+// $white_font_color: #ffffff;
+// $maroon_red_font_color: #b20000;
+// $dark_grey_font_color: #333333;
+// $dark_brown_font_color: #191919;
+
 
 // @media
 $min-device-width: 'min-device-width';
