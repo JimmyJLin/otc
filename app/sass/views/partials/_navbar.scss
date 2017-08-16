@@ -5,6 +5,15 @@
 // nav_bar stylings
 #nav_bar{
   background-color: $g_transparent_color;
+
+  .navbar-brand {
+    #logo{
+      margin: 0px 0px !important;
+      height: 150%;
+      width: auto;
+    }
+  }
+
   .navbar {
     margin-bottom: -20px;
     a {
