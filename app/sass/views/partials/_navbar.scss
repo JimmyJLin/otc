@@ -5,13 +5,10 @@
 // nav_bar stylings
 #nav_bar{
   background-color: $g_transparent_color;
-
-  .navbar-brand {
-    #logo{
-      margin: 0px 0px !important;
-      height: 150%;
-      width: auto;
-    }
+  img{
+    margin: 0px 0px !important;
+    height: 150%;
+    width: auto;
   }
 
   .navbar {
@@ -54,6 +51,17 @@
     opacity: .8;
     border: none;
     border-radius: 0;
+
+    .navbar-brand{
+      #logo{
+        visibility: visible;
+      }
+      #logo_alt{
+        display: none;
+        visibility: hidden;
+      }
+    }
+
   }
 
   .affix + .container-fluid{
@@ -65,6 +73,15 @@
     background-color: $secondary_background_color;
     border: none;
     border-radius: 0;
+    .navbar-brand{
+      #logo{
+        display: none;
+        visibility: hidden;
+      }
+      #logo_alt{
+        visibility: visible;
+      }
+    }
   }
   a {
     transition-duration: 1s;
