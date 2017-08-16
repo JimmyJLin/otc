@@ -2,8 +2,11 @@
 @import "global";
 
 // seminars landing page
-#seminars{
-
+#seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+  height: 750px;
+  h1{
+    text-align: center;
+  }
 
 }
 

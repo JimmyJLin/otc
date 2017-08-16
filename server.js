@@ -21,5 +21,11 @@ app.set('view engine', 'ejs');
 
 /* routes */
 const mainRoutes = require('./routes/main');
+const seminarRoutes = require('./routes/seminars');
 
 app.use('/', mainRoutes);
+app.use('/seminars', seminarRoutes);
+
+app.get('/*', (req, res) => {
+  res.render('pages/404');
+});

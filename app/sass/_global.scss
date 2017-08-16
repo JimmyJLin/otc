@@ -11,6 +11,7 @@ body {
 
   // global buttton styling starts
   .btn{
+    border: $g_transparent_color;
     background-color: $main_button_color;
     color: $button_font_color;
     box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
