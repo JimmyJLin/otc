@@ -6,26 +6,47 @@
   // padding-top: 60px;
   width: auto;
 
-  .section_one, .section_two, .section_three{
+  .row{
+    padding-top: 15px;
+  }
+
+  .btn{
+    font-size: 1.5em;
+    width: 200px;
+    transition-duration: 1s;
+  }
+
+  .section_one, .section_two, .section_three, .section_four{
     height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    .section_title{
+    .section_body{
       position: relative;
       top:50%;
       transform: translateY(-50%);
       background-color: $main_background_color;
-      opacity: .7;
+      opacity: .8;
+
+      h3, h4{
+        text-align: center;
+      }
 
       h3{
         padding-top: 20px;
         font-size: 3em;
-        text-align: center;
-        height: 100px;
       }
+
+      .section_text{
+        padding-bottom: 40px;
+        margin: 25px 25px;
+        p{
+          text-align: center;
+        }
+      }
+
     }
   }
 
@@ -41,7 +62,10 @@
     padding-top: 1px;
     background-image: url("/images/background/hairtreatment.jpg");
   }
-
+  .section_four {
+    padding-top: 1px;
+    background-image: url("/images/background/cut.jpg");
+  }
 
 }
 
@@ -70,7 +94,7 @@
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 76% !important;
       }
     }
@@ -79,7 +103,7 @@
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape){
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 50% !important;
       }
     }
@@ -110,7 +134,7 @@
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 76% !important;
       }
     }
@@ -119,7 +143,7 @@
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 50% !important;
       }
     }
@@ -150,7 +174,7 @@
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 83% !important;
       }
     }
@@ -159,7 +183,7 @@
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 50% !important;
       }
     }
@@ -190,7 +214,7 @@
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 86% !important;
       }
     }
@@ -199,7 +223,7 @@
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 50% !important;
       }
     }
@@ -287,7 +311,7 @@
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 86% !important;
       }
     }
@@ -296,7 +320,7 @@
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
   #parallax{
     .section_one, .section_two, .section_three{
-      .section_title{
+      .section_body{
         top: 50% !important;
       }
     }
