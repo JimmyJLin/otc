@@ -3,7 +3,7 @@
 
 // parallax partial
 #parallax{
-  // padding-top: 60px;
+  padding-bottom: 50px;
   width: auto;
 
   .row{
@@ -89,11 +89,16 @@
       background-attachment: scroll !important;
       background-size: contain !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 76% !important;
       }
@@ -102,7 +107,7 @@
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape){
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 50% !important;
       }
@@ -129,11 +134,16 @@
       background-attachment: scroll !important;
       background-size: contain !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 76% !important;
       }
@@ -142,7 +152,7 @@
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 50% !important;
       }
@@ -169,11 +179,16 @@
       background-attachment: scroll !important;
       background-size: contain !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 83% !important;
       }
@@ -182,7 +197,7 @@
 }
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 50% !important;
       }
@@ -209,11 +224,16 @@
       background-attachment: scroll !important;
       background-size: 100% !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 86% !important;
       }
@@ -222,7 +242,7 @@
 }
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 50% !important;
       }
@@ -261,6 +281,11 @@
       background-attachment: scroll !important;
       background-size: 100% !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $landscape) {
@@ -286,6 +311,11 @@
       background-attachment: scroll !important;
       background-size: 100% !important;
     }
+    .section_four {
+      background-image: url("/images/background/cut-small.jpg") !important;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
   }
 }
 // Tablets - iPad Pro ends here
@@ -307,10 +337,15 @@
     background-attachment: scroll !important;
     background-size: contain !important;
   }
+  .section_four {
+    background-image: url("/images/background/cut-small.jpg") !important;
+    background-attachment: scroll !important;
+    background-size: contain !important;
+  }
 }
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 86% !important;
       }
@@ -319,7 +354,7 @@
 }
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $landscape) {
   #parallax{
-    .section_one, .section_two, .section_three{
+    .section_one, .section_two, .section_three, .section_four{
       .section_body{
         top: 50% !important;
       }
