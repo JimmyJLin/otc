@@ -37,4 +37,17 @@ body {
   }
   // global a tag styling ends
 
+  // global page title starts
+  #page_title{
+    background-color: $secondary_background_color;
+    opacity: .7;
+    height: 75px;
+    h1{
+      padding-top: 15px;
+      color: $g_white;
+      text-align: center;
+    }
+  }
+  // global page title ends
+
 }

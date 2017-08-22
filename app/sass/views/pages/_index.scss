@@ -4,6 +4,13 @@
 // index landing page
 #index{
 
+  #h_line{
+    width: 30%;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: $g_yellow;
+  }
+
   #index-top{
     height: 85px;
 
