@@ -59,7 +59,13 @@
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4 & 4s starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2){
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
 
@@ -71,7 +77,13 @@
 
 // iPhone 5 & 5S starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -83,7 +95,13 @@
 
 // iPhone 6 & 6S starts here
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -95,7 +113,13 @@
 
 // iPhone 6plus starts here
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
@@ -107,7 +131,13 @@
 
 // iPad mini starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) and ($orientation: $portrait) {
 
@@ -119,7 +149,13 @@
 
 // iPad starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -131,7 +167,13 @@
 
 // iPad Pro starts here
 @media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) {
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) and ($orientation: $portrait) {
 
@@ -143,7 +185,13 @@
 
 // Nexus 6P starts here
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3){
-
+  #category{
+    #list_items:hover{
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 }
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
