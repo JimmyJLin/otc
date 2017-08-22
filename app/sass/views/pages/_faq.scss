@@ -3,7 +3,22 @@
 
 // register landing page
 #faq{
+  margin-top: 50px;
+  padding-bottom: 50px;
 
+  h1{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  #accordion{
+    padding-bottom: 50px;
+  }
+
+  .btn{
+    font-size: 1.3em;
+    width: 350px;
+    transition-duration: 1s;
+  }
 
 }
 

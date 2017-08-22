@@ -1,4 +1,5 @@
 const express = require('express');
+const data = require('../app/data/data.json');
 
 const main = express.Router();
 
@@ -13,7 +14,8 @@ main.get('/register', (req, res) => {
 });
 
 main.get('/faq', (req, res) => {
-  res.render('pages/faq');
+  res.render('pages/faq', { data: data });
+  console.log('data', data);
 });
 
 main.get('/contact', (req, res) => {

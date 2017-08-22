@@ -1,7 +1,28 @@
 <% layout('main') -%>
 
-<div id="faq">
-  <div class="container">
-    <h1>FAQ Page</h1>
+<div id="faq" class="container-fluid">
+  <h1>FAQs</h1>
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <% data.faq.forEach((el) => { %>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id='<%= el.heading %>'>
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href='#<%= el.collapse %>' aria-expanded="false" aria-controls='<%= el.collapse %>'>
+              <%= el.question %>
+            </a>
+          </h4>
+        </div>
+        <div id='<%= el.collapse %>' class="panel-collapse collapse" role="tabpanel" aria-labelledby='<%= el.heading %>'>
+          <div class="panel-body">
+            <%= el.answer %>
+          </div>
+        </div>
+      </div>
+    <% }) %>
   </div>
+
+  <div class="row">
+    <a href="mailto:outstandingtrainingcenter@gmail.com?Subject=Additional%20FAQ%20about%20Microblading" class="btn btn-default center-block"> Email us with additional Questions</a>
+  </div>
+
 </div>
