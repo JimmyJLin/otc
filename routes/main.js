@@ -15,7 +15,7 @@ main.get('/register', (req, res) => {
 
 main.get('/faq', (req, res) => {
   res.render('pages/faq', { data: data });
-  console.log('data', data);
+  // console.log('data', data);
 });
 
 main.get('/contact', (req, res) => {
