@@ -1,11 +1,12 @@
 const express = require('express');
+const data = require('../app/data/data.json');
 
 const seminarRoutes = express.Router();
 
 
 /* api routes */
 seminarRoutes.get('/', (req, res) => {
-  res.render('pages/seminars/seminars');
+  res.render('pages/seminars/seminars', { data: data });
 });
 
 seminarRoutes.get('/hair_strokes', (req, res) => {

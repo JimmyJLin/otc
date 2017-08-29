@@ -3,18 +3,88 @@
 
 // seminars landing page
 #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
-  height: 750px;
+
+  #index-top{
+    height: 85px;
+
+    h3{
+      padding-top: 25px;
+    }
+    h4{
+      padding-bottom: 25px;
+    }
+    h3, h4{
+      text-align: center;
+    }
+  }
+
   h1{
     text-align: center;
   }
 
 }
 
+#seminars{
+  .row{
+    margin: 50px 75px;
+
+    #image_container{
+      overflow: hidden;
+    }
+
+    a{
+      transition-duration: 2s;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      transition-duration: 2s;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    img:hover{
+      cursor: pointer;
+
+    }
+    #seminar_container{
+      padding-top: 10%;
+      padding-left: 25px;
+    }
+  }
+
+  .row:hover{
+    img{
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    a{
+      color: $g_yellow;
+    }
+  }
+}
+
 
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4 & 4s starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2){
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
 
@@ -26,7 +96,22 @@
 
 // iPhone 5 & 5S starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -38,7 +123,22 @@
 
 // iPhone 6 & 6S starts here
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -50,7 +150,22 @@
 
 // iPhone 6plus starts here
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
@@ -98,7 +213,22 @@
 
 // Nexus 6P starts here
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3){
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
