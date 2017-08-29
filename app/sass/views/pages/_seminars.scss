@@ -178,7 +178,23 @@
 
 // iPad mini starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      padding-bottom: 25px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) and ($orientation: $portrait) {
 
@@ -190,7 +206,23 @@
 
 // iPad starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      padding-bottom: 25px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -202,7 +234,23 @@
 
 // iPad Pro starts here
 @media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) {
-
+  #seminars{
+    .row{
+      margin: 0px 0px;
+      padding-bottom: 25px;
+      #seminar_container{
+        padding-top: 0px;
+        padding-bottom: 25px;
+      }
+    }
+    .row:hover{
+      img{
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
 }
 @media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) and ($orientation: $portrait) {
 
