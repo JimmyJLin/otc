@@ -27,6 +27,7 @@ body {
   // global a tag styling starts
   a{
   text-decoration: none;
+  transition: 2s;
   color: $secondary_font_color;
   }
   a:hover{
