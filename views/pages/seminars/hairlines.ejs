@@ -4,7 +4,34 @@
 </div>
 
 <div id="hairlines">
-  <div class="container">
-    
+  <div id="hairlines_background"></div>
+  <div class="container-fluid">
+    <h2><%= data.seminars[5].title %></h2>
+    <h4><%= data.seminars[5].type %> - <%= data.seminars[5].length %></h4>
+    <p><%= data.seminars[5].description %></p>
+    <div class="row">
+      <img src='<%= data.seminars[5].img_url%>' alt="image">
+    </div>
+    <p><%= data.seminars[5].additional_info %></p>
+    <div id="benefits">
+      <p>
+        <span><%= data.seminars[5].model %></span>
+        <br>
+        <%= data.seminars[5].model_details %>
+      </p>
+      <p>
+        <span><%= data.seminars[5].starter_kit %></span>
+        <br>
+        <%= data.seminars[5].starter_kit_details %>
+      </p>
+      <p>
+        <span><%= data.seminars[5].benefits %></span>
+        <br>
+        <%= data.seminars[5].benefits_details %>
+      </p>
+      <h3>Fee: $<%= data.seminars[5].fee %></h3>
+      
+      <a href="/register" class="btn btn-default center-block"> Get More Info </a>
+    </div>
   </div>
 </div>

@@ -4,6 +4,32 @@
 // seminars landing page
 #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
 
+  #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hair_strokes_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+  #areola_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+  #eyeliners_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+  #hairlines_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+  #lips_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+  #powdered_background{
+    background-image: url("/images/seminar/image_placeholder.jpg");
+  }
+
   #index-top{
     height: 85px;
 
@@ -21,6 +47,37 @@
 
   h1{
     text-align: center;
+  }
+
+  .container-fluid{
+    margin: 25px 300px;
+
+    .btn{
+      margin-top: 25px;
+      width: 250px;
+    }
+
+    p{
+      padding: 15px 0px;
+    }
+
+    #benefits{
+      padding: 50px 15px;
+      background-color: $g_cream_color;
+      p, h3{
+        text-align: center;
+      }
+      p{
+        padding: 10px 25px;
+      }
+      span{
+        font-weight: bold;
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 2em;
+      }
+    }
   }
 
 }
@@ -70,6 +127,25 @@
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4 & 4s starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2){
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -97,6 +173,26 @@
 
 // iPhone 5 & 5S starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      margin-top: -10px;
+      height: 225px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -124,6 +220,26 @@
 
 // iPhone 6 & 6S starts here
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      margin-top: -10px;
+      height: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -151,6 +267,25 @@
 
 // iPhone 6plus starts here
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      height: 275px !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -178,6 +313,25 @@
 
 // iPad mini starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 1) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -206,6 +360,26 @@
 
 // iPad starts here
 @media only screen and ($min-device-width: 768px) and ($max-device-width: 1024px) and ($-webkit-min-device-pixel-ratio: 2) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      margin-top: -20px;
+      height: 550px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -234,6 +408,26 @@
 
 // iPad Pro starts here
 @media only screen and ($min-device-width: 1024px) and ($max-device-width: 1366px) {
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      margin-top: -20px;
+      height: 690px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;
@@ -262,6 +456,25 @@
 
 // Nexus 6P starts here
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3){
+  #seminars, #hair_strokes, #powdered, #lips, #eyeliners, #areola, #hairlines, #others{
+    #hair_strokes_background, #areola_background, #eyeliners_background, #hairlines_background, #lips_background, #powdered_background {
+      height: 275px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll !important;
+      background-size: contain !important;
+    }
+
+    .container-fluid{
+      margin: 15px 0px;
+      .row{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   #seminars{
     .row{
       margin: 0px 0px;

@@ -1,10 +1,37 @@
 <% layout('main') -%>
 <div id="page_title">
-  <h1>Areola</h1>
+  <h4>Areola</h4>
 </div>
 
 <div id="areola">
-  <div class="container">
-    
+  <div id="areola_background"></div>
+  <div class="container-fluid">
+    <h2><%= data.seminars[4].title %></h2>
+    <h4><%= data.seminars[4].type %> - <%= data.seminars[4].length %></h4>
+    <p><%= data.seminars[4].description %></p>
+    <div class="row">
+      <img src='<%= data.seminars[4].img_url%>' alt="image">
+    </div>
+    <p><%= data.seminars[4].additional_info %></p>
+    <div id="benefits">
+      <p>
+        <span><%= data.seminars[4].model %></span>
+        <br>
+        <%= data.seminars[4].model_details %>
+      </p>
+      <p>
+        <span><%= data.seminars[4].starter_kit %></span>
+        <br>
+        <%= data.seminars[4].starter_kit_details %>
+      </p>
+      <p>
+        <span><%= data.seminars[4].benefits %></span>
+        <br>
+        <%= data.seminars[4].benefits_details %>
+      </p>
+      <h3>Fee: $<%= data.seminars[4].fee %></h3>
+
+      <a href="/register" class="btn btn-default center-block"> Get More Info </a>
+    </div>
   </div>
 </div>
