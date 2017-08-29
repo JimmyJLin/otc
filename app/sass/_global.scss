@@ -49,4 +49,13 @@ body {
   }
   // global page title ends
 
+  // global for horizontal line starts
+  #h_line{
+    width: 30%;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: $g_yellow;
+  }
+  // global for horizontal line ends
+
 }
