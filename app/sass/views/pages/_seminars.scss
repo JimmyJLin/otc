@@ -52,6 +52,13 @@
   .container-fluid{
     margin: 25px 300px;
 
+    .row{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
     .btn{
       margin-top: 25px;
       width: 250px;
@@ -83,6 +90,10 @@
 }
 
 #seminars{
+  .container-fluid{
+    margin: 25px 50px !important;
+
+  }
   .row{
     margin: 50px 75px;
 
