@@ -4,7 +4,41 @@
 </div>
 
 <div id="others">
-  <div class="container">
-    
+  <div id="others_background"></div>
+  <div class="container-fluid">
+
+    <% data.others.forEach((el) => { %>
+      <div id="h_line" class="center-block"></div>
+
+      <h2><%= el.title %></h2>
+      <h4><%= el.type %> - <%= el.length %></h4>
+      <p><%= el.description %></p>
+      <div class="row">
+        <img src='<%= data.seminars[5].img_url%>' alt="image">
+      </div>
+      <p><%= el.additional_info %></p>
+      <div id="benefits">
+        <p>
+          <span><%= el.model %></span>
+          <br>
+          <%= el.model_details %>
+        </p>
+        <p>
+          <span><%= el.starter_kit %></span>
+          <br>
+          <%= el.starter_kit_details %>
+        </p>
+        <p>
+          <span><%= el.benefits %></span>
+          <br>
+          <%= el.benefits_details %>
+        </p>
+        <h3>Fee: $<%= el.fee %></h3>
+
+        <a href="/register" class="btn btn-default center-block"> Get More Info </a>
+      </div>
+
+    <% }) %>
+
   </div>
 </div>
