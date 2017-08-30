@@ -4,7 +4,7 @@
 // register landing page
 #register{
   padding-top: 75px;
-  height: 750px;
+  padding-bottom: 50px;
 
   #checkbox{
     margin-left: 20%;
@@ -22,7 +22,13 @@
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4 & 4s starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2){
+  #register{
 
+    #checkbox{
+      margin-left: 0%;
+    }
+
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 480px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait){
 
@@ -34,7 +40,13 @@
 
 // iPhone 5 & 5S starts here
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) {
+  #register{
 
+    #checkbox{
+      margin-left: 0%;
+    }
+
+  }
 }
 @media only screen and ($min-device-width: 320px) and ($max-device-width: 568px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -46,7 +58,13 @@
 
 // iPhone 6 & 6S starts here
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) {
+  #register{
 
+    #checkbox{
+      margin-left: 0%;
+    }
+
+  }
 }
 @media only screen and ($min-device-width: 375px) and ($max-device-width: 667px) and ($-webkit-min-device-pixel-ratio: 2) and ($orientation: $portrait) {
 
@@ -58,7 +76,13 @@
 
 // iPhone 6plus starts here
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) {
+  #register{
 
+    #checkbox{
+      margin-left: 0%;
+    }
+
+  }
 }
 @media only screen and ($min-device-width: 414px) and ($max-device-width: 736px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
@@ -106,7 +130,13 @@
 
 // Nexus 6P starts here
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3){
+  #register{
 
+    #checkbox{
+      margin-left: 0%;
+    }
+
+  }
 }
 @media only screen and ($min-device-width: 412px) and ($max-device-width: 732px) and ($-webkit-min-device-pixel-ratio: 3) and ($orientation: $portrait) {
 
