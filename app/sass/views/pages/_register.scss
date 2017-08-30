@@ -3,7 +3,17 @@
 
 // register landing page
 #register{
+  padding-top: 75px;
   height: 750px;
+
+  #checkbox{
+    margin-left: 20%;
+  }
+
+  .btn{
+    transition: 2s;
+    width: 150px;
+  }
 
 
 }
