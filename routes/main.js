@@ -11,10 +11,6 @@ main.get('/', (req, res) => {
 
 main.route('/register')
   .get((req, res) => {
-    // firebase.database().ref().set({
-    //   username: 'someName',
-    //   email: 'someEmail',
-    // });
     res.render('pages/register');
   });
 

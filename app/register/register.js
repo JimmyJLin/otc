@@ -1,4 +1,5 @@
 const firebase = require('firebase');
+const nodemailer = require('nodemailer');
 
 // Initialize Firebase
 const config = {
@@ -59,6 +60,17 @@ function seminarRegistrationForm(req, res, next) {
   if (oneOnOne) {
     seminars.push(oneOnOne);
   }
+
+  const registrationData = {
+    firstName: fName,
+    lastName: lName,
+    email: email,
+    telephone: telephone,
+    seminars: seminars,
+    hearAboutUs: hearAboutUs,
+    comments: comments
+  };
+
   // console.log('data', data);
   const db = firebase.database();
   const ref = db.ref('seminarRegistration');
@@ -76,20 +88,46 @@ function seminarRegistrationForm(req, res, next) {
     comments: comments
   })
     .then(() => {
+      nodemailer.createTestAccount((err, account) => {
+        console.log('registrationData', registrationData);
+
+        const htmlMessage = '<html><h1>New Online Seminar Registration</h1><br /><p>' + '<p>First Name: ' + registrationData.firstName + '</p>' + '<p>Last Name: ' + registrationData.lastName +'</p>' + '<p>Email: ' + registrationData.email +'</p>' + '<p>Telephone: ' + registrationData.telephone +'</p>' + '<p>Seminars: ' + registrationData.seminars +'</p>' + '<p>How did you hear about us?: ' + registrationData.hearAboutUs +'</p>' + '<p>Questions or Comments: ' + registrationData.comments +'</p>' + '</p></html>';
+
+        // create reusable transporter object using the default SMTP transport
+        let transporter = nodemailer.createTransport({
+          host: 'smtp.gmail.com',
+          port: 587,
+          secure: false, // true for 465, false for other ports
+          auth: {
+            user: 'outstandingtrainingcenter@gmail.com', //generated ethereal user
+            pass: '90Bowery308'
+          }
+        });
+
+        // setup email data with unicode symbols
+        let emailMessage = {
+          from: '"Seminar Registration" <outstandingtrainingcenter@gmail.com>', // sender address
+          to: 'liweibeauty88@gmail.com',
+          subject: 'New Online Seminar Registration',
+          text: 'Online Seminar Registration', // plain text body
+          html: htmlMessage // html body
+        };
+
+        transporter.sendMail(emailMessage, (error, info) => {
+          if (error) {
+            return console.log(error);
+          }
+          console.log('Message sent: %s', info.messageId);
+          // Preview only available when sending through an Ethereal account
+          // console.log('Preview URL: $s', nodemailer.getTestMessageUrl(info));
+        });
+      });
+
       res.redirect('/');
     })
     .catch(() => {
       res.redirect('/register');
     });
-  // firebase.database().push().set({
-  //   fName: fName,
-  //   lName: lName,
-  //   email: email,
-  //   telephone: telephone,
-  //   seminars: seminars,
-  //   hearAboutUs: hearAboutUs,
-  //   comments: comments
-  // });
 }
 
 module.exports.seminarRegistrationForm = seminarRegistrationForm;
