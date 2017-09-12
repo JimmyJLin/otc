@@ -24,15 +24,20 @@ $(() => {
   //   });
   // };
   // setTimeout(showModal, 5000);
+
+  function getBaseUrl() {
+    return window.location.href.match(/^.*\//);
+  }
   $('#registration_confirmation').each(() => {
+    const root = location.protocol + '//' + location.host;
     setTimeout(() => {
-      window.location.href = "http://localhost:3000"
+      window.location.href = root;
     }, 10000);
   })
 
   $('#registration_error').each(() => {
     setTimeout(() => {
-      window.location.href = "http://localhost:3000/register"
+      window.location.href = getBaseUrl();
     }, 10000);
   })
 });
