@@ -108,10 +108,10 @@ function seminarRegistrationForm(req, res, next) {
         });
       });
 
-      res.redirect('/');
+      res.redirect('/register/confirmation');
     })
     .catch(() => {
-      res.redirect('/register');
+      res.redirect('/register/error');
     });
 }
 

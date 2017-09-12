@@ -13,11 +13,17 @@ main.route('/register')
   .get((req, res) => {
     res.render('pages/register');
   });
-
+main.route('/register/error')
+  .get((req, res) => {
+    res.render('pages/registration_error');
+  });
+main.route('/register/confirmation')
+  .get((req, res) => {
+    res.render('pages/registration_confirmation');
+  });
 
 main.route('/post/register')
   .post(register.seminarRegistrationForm, (req, res) => {
-    res.redirect('/');
   });
 
 main.get('/faq', (req, res) => {

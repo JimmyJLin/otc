@@ -24,5 +24,15 @@ $(() => {
   //   });
   // };
   // setTimeout(showModal, 5000);
+  $('#registration_confirmation').each(() => {
+    setTimeout(() => {
+      window.location.href = "http://localhost:3000"
+    }, 10000);
+  })
 
+  $('#registration_error').each(() => {
+    setTimeout(() => {
+      window.location.href = "http://localhost:3000/register"
+    }, 10000);
+  })
 });
