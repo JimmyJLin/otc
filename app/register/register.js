@@ -15,58 +15,36 @@ firebase.initializeApp(config);
 const database = firebase.database();
 
 function seminarRegistrationForm(req, res, next) {
+  // console.log('body', req.body)
   // const data = req.body;
   const fName = req.body.fname;
   const lName = req.body.lname;
   const email = req.body.email;
   const telephone = req.body.telephone;
-  const hairStrokes = req.body.hairStrokes;
-  const powdered = req.body.powdered;
-  const lips = req.body.lips;
-  const eyeliners = req.body.eyeliners;
-  const hairlines = req.body.hairlines;
-  const microbladingIntro = req.body.microbladingIntro;
-  const fiveDaysSeminar = req.body.fiveDaysSeminar;
-  const advancedMicroblading = req.body.advancedMicroblading;
-  const oneOnOne = req.body.oneOnOne;
+  const fiveDaysHairStrokes = req.body.fiveDaysHairStrokes;
+  const threeDaysHairStrokes = req.body.threeDaysHairStrokes;
+  const powdered = req.body.powderedSeminar;
+  const advancedMicroblading = req.body.advancedMicrobladingSeminar;
+  const lips = req.body.lipsSeminar;
+  const eyeliners = req.body.eyelinerSeminar;
+  const hairlines = req.body.hairlineSeminar;
+  const oneOnOne = req.body.oneOnOneSeminar;
   const hearAboutUs = req.body.hearAboutUs;
   const comments = req.body.comments;
-  const seminars = [];
-
-  if (hairStrokes) {
-    seminars.push(hairStrokes);
-  }
-  if (powdered) {
-    seminars.push(powdered);
-  }
-  if (lips) {
-    seminars.push(lips);
-  }
-  if (eyeliners) {
-    seminars.push(eyeliners);
-  }
-  if (hairlines) {
-    seminars.push(hairlines);
-  }
-  if (microbladingIntro) {
-    seminars.push(microbladingIntro);
-  }
-  if (fiveDaysSeminar) {
-    seminars.push(fiveDaysSeminar);
-  }
-  if (advancedMicroblading) {
-    seminars.push(advancedMicroblading);
-  }
-  if (oneOnOne) {
-    seminars.push(oneOnOne);
-  }
 
   const registrationData = {
     firstName: fName,
     lastName: lName,
     email: email,
     telephone: telephone,
-    seminars: seminars,
+    fiveDaysSeminar: fiveDaysHairStrokes,
+    threeDaysSeminar: threeDaysHairStrokes,
+    powderedSeminar: powdered,
+    advancedMicroblading: advancedMicroblading,
+    lips: lips,
+    eyeliners: eyeliners,
+    hairlines: hairlines,
+    oneOnOne: oneOnOne,
     hearAboutUs: hearAboutUs,
     comments: comments
   };
@@ -79,11 +57,18 @@ function seminarRegistrationForm(req, res, next) {
   const newSeminarRef = seminarsRef.push();
 
   newSeminarRef.set({
-    fName: fName,
-    lName: lName,
+    firstName: fName,
+    lastName: lName,
     email: email,
     telephone: telephone,
-    seminars: seminars,
+    fiveDaysSeminar: fiveDaysHairStrokes,
+    threeDaysSeminar: threeDaysHairStrokes,
+    powderedSeminar: powdered,
+    advancedMicroblading: advancedMicroblading,
+    lips: lips,
+    eyeliners: eyeliners,
+    hairlines: hairlines,
+    oneOnOne: oneOnOne,
     hearAboutUs: hearAboutUs,
     comments: comments
   })
@@ -91,7 +76,7 @@ function seminarRegistrationForm(req, res, next) {
       nodemailer.createTestAccount((err, account) => {
         console.log('registrationData', registrationData);
 
-        const htmlMessage = '<html><h1>New Online Seminar Registration</h1><br /><p>' + '<p>First Name: ' + registrationData.firstName + '</p>' + '<p>Last Name: ' + registrationData.lastName +'</p>' + '<p>Email: ' + registrationData.email +'</p>' + '<p>Telephone: ' + registrationData.telephone +'</p>' + '<p>Seminars: ' + registrationData.seminars +'</p>' + '<p>How did you hear about us?: ' + registrationData.hearAboutUs +'</p>' + '<p>Questions or Comments: ' + registrationData.comments +'</p>' + '</p></html>';
+        const htmlMessage = '<html><h1>New Online Seminar Registration</h1><br /><p>' + '<p>First Name: ' + registrationData.firstName + '</p>' + '<p>Last Name: ' + registrationData.lastName +'</p>' + '<p>Email: ' + registrationData.email +'</p>' + '<p>Telephone: ' + registrationData.telephone +'</p>' + '<p>Five Days Seminar: ' + registrationData.fiveDaysSeminar + '</p>' + '<p>Three Days Seminar: ' + registrationData.threeDaysSeminar + '</p>' + '<p>Powdered Seminar: ' + registrationData.powderedSeminar + '</p>' + '<p>Advanced Microblading Seminar: ' + registrationData.advancedMicroblading + '</p>' + '<p>Lips Seminar: ' + registrationData.lips + '</p>' + '<p>Eyeliners Seminar: ' + registrationData.eyeliners + '</p>' + '<p>Hairlines Seminar: ' + registrationData.hairlines + '</p>' + '<p>One On One Seminar: ' + registrationData.oneOnOne + '</p>' + '<p>How did you hear about us?: ' + registrationData.hearAboutUs +'</p>' + '<p>Questions or Comments: ' + registrationData.comments +'</p>' + '</p></html>';
 
         // create reusable transporter object using the default SMTP transport
         let transporter = nodemailer.createTransport({

@@ -17,7 +17,6 @@ main.route('/register')
 
 main.route('/post/register')
   .post(register.seminarRegistrationForm, (req, res) => {
-    // console.log('req:', req.body);
     res.redirect('/');
   });
 
